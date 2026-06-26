@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "DEEPSEEK_API_KEY": "@deepseek_api_key",
+    "DEEPSEEK_API_BASE_URL": "@deepseek_api_base_url",
+    "DEEPSEEK_MODEL": "@deepseek_model",
+    "API_TIMEOUT": "@api_timeout"
+  }
+}
